@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DevopsDeployApplication {
 	@GetMapping ("/message")
 	public String message(){
-		return "Welcome to Spring Web App !!";
+		return "Jenkins Devops Assignment";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DevopsDeployApplication.class, args);
